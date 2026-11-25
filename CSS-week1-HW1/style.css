@@ -1,0 +1,65 @@
+/* style.css */
+
+/* 2. Thẻ body: họ phông chữ và cỡ chữ */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #222222;
+  margin: 0;
+}
+
+/* 3. Thẻ header: màu nền */
+header {
+  background-color: #dbe7f5;
+  padding: 20px;
+}
+
+/* 4. Thẻ nav: màu nền */
+nav {
+  background-color: #b9d0ea;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #0a2a5e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+/* 5. Thẻ main: màu nền và cỡ chữ */
+main {
+  background-color: #fdf8ee;
+  font-size: 1.1rem;
+  padding: 20px;
+}
+
+/* 6. Thẻ footer: màu nền */
+footer {
+  background-color: #e6e6e6;
+  color: #222222;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+/* 7. Thẻ li: display và width */
+li {
+  display: inline-block;
+  width: 150px;
+}
+
+/* 8. Thẻ h1: căn chỉnh, họ phông chữ, màu sắc */
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #14305a;
+}
+
+/* 9. Thẻ p: chiều cao dòng */
+p {
+  line-height: 1.6;
+}
